@@ -25,6 +25,7 @@ public class RoadManager : MonoBehaviour
    
     void Update()
     {
+        if (GameManager.instance.condition == false) return;
         RoadMove();
     }
     

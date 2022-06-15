@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Tire
+  - Tire Stack
   layers:
   - Default
   - TransparentFX
