@@ -8,7 +8,7 @@ public class RoadManager : MonoBehaviour
     List<GameObject> roadlist;
     //위치값 설정 
     Vector3 nextRoad = Vector3.zero;//(0,0,0)
-    public float speed = 0f;
+   
     int firstRoad, lastRoad=0;
 
     void Start()
@@ -33,7 +33,7 @@ public class RoadManager : MonoBehaviour
     {
         for(int i=0;i<roadlist.Count;i++)
         {
-            roadlist[i].transform.Translate(-Vector3.forward * speed * Time.deltaTime);
+            roadlist[i].transform.Translate(-Vector3.forward * GameManager.instance.speed * Time.deltaTime);
         }
 
         if (roadlist[lastRoad].transform.position.z <= -36)

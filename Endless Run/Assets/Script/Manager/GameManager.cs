@@ -8,7 +8,8 @@ public class GameManager : MonoBehaviour
     //이 게임 내에서 게임 매니저 인스턴스는 이 instance에 담긴 오브젝트만 존재 할 수 있다.
     public static GameManager instance;
 
-    public bool condition = true;
+    public float speed = 10.0f;
+    public bool condition=true;
 
 
     private void Awake()
@@ -35,7 +36,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        condition = true;
     }
 
     // Update is called once per frame
