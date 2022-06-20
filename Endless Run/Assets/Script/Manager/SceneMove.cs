@@ -11,5 +11,6 @@ public class SceneMove : MonoBehaviour
         SceneManager.LoadScene(name);
         GameManager.instance.condition = true;
         GameManager.instance.speed = 10.0f;
+        GameManager.instance.crashCount = 1;
     }
 }

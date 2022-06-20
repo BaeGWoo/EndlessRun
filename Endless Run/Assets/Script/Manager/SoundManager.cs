@@ -25,18 +25,13 @@ public class SoundManager : MonoBehaviour
                 audioSource.Play();
                 break;
 
-            case "Click":
+           case "LevelDesign":
                 audioSource.clip = audioClip[1];
                 audioSource.Play();
                 break;
 
-            case "LevelDesign":
-                audioSource.clip = audioClip[2];
-                audioSource.Play();
-                break;
-
             case "Move":
-                audioSource.clip = audioClip[3];
+                audioSource.clip = audioClip[2];
                 audioSource.Play();
                 break;
 
