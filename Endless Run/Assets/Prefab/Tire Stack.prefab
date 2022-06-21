@@ -943,7 +943,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3459915811110660733
 Transform:
   m_ObjectHideFlags: 0
@@ -1046,8 +1046,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.5, z: 0.1}
-  m_Center: {x: 0, y: 0.5, z: -0.4}
+  m_Size: {x: 0.5, y: 1, z: 0.65}
+  m_Center: {x: 0, y: 0.25, z: -0.25}
 --- !u!1 &5935051654334188065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,7 +1067,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3181827611174575011
 Transform:
   m_ObjectHideFlags: 0
@@ -1170,8 +1170,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.5, z: 0.1}
-  m_Center: {x: 0, y: 0.5, z: -0.4}
+  m_Size: {x: 0.5, y: 1, z: 0.65}
+  m_Center: {x: 0, y: 0.25, z: -0.25}
 --- !u!1 &6074969365006352418
 GameObject:
   m_ObjectHideFlags: 0
@@ -1821,7 +1821,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d1be9498d0cf244792fe862bb67cfa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   prefab:
   - {fileID: 5935051654334188065}
   - {fileID: 4990421636698280119}
@@ -1977,7 +1976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1596896688416193282
 Transform:
   m_ObjectHideFlags: 0
@@ -2080,5 +2079,5 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.5, z: 0.1}
-  m_Center: {x: 0, y: 0.5, z: -0.4}
+  m_Size: {x: 0.5, y: 1, z: 0.65}
+  m_Center: {x: 0, y: 0.25, z: -0.25}

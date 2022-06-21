@@ -40,9 +40,6 @@ public class GameManager : MonoBehaviour
         condition = true;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
+  
 }
